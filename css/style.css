@@ -1,0 +1,120 @@
+header{
+    background-color: black;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.centr-conteiner{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 32px 30px 32px;
+    
+}
+.business{
+    display: flex;
+}
+
+.business li a{
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px; 
+   text-decoration: none;
+}
+
+header nav li:first-of-type a{
+    margin-right: 52px;
+    font-size: 13px
+}
+header nav li:last-of-type a{
+    border-radius: 14px;
+    background: #FFF;
+    padding: 13px 20px 13px 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.4px;
+}
+header nav li:nth-child(2) a{
+    margin-right: 32px;
+}
+
+header nav li:nth-child(3) a{
+    margin-right: 32px;
+}
+header nav li:nth-child(4) a{
+    margin-right: 32px;
+}
+
+.photo{
+    background-image: url('../Images/bakcround.svg') ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.grapher{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 442px;
+    text-align: center;
+}
+.grapher span{
+    color: #C0C0C0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  
+}
+
+.grapher h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59.4px;
+}
+.grapher p{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.iceland{
+    display: inline-flex;
+    height: 16px;
+    padding-left: 15.75px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink:0;
+    float: right;
+    margin-right: 180px;
+}
+
+.iceland article li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
