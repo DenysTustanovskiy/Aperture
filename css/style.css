@@ -187,6 +187,7 @@ header nav li:last-of-type a{
     align-items: center;
     gap: 109px;
 }
+
 .owl-carousel .owl-item img{
     max-width: 245px;
     width: auto;
