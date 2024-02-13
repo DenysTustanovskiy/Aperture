@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 header{
-    background-color: black;
-    padding-left: 120px;
+    background-color:#000;
+    
     padding-right: 120px;
 }
 .centr-conteiner{
@@ -13,10 +13,16 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     padding: 30px 32px 30px 32px;
-    
+    position: relative;
 }
+
+.centr-conteiner img{
+  position: absolute;
+  left: 200px; 
+}
+
 .business{
     display: flex;
 }
@@ -184,6 +190,7 @@ header nav li:last-of-type a{
     margin: auto;
     display: flex;
     padding: 40px 46px;
+    justify-content: center;
     align-items: center;
     gap: 109px;
 }
@@ -191,4 +198,5 @@ header nav li:last-of-type a{
     max-width: 245px;
     width: auto;
     display: inline-block;
+
 }
