@@ -1,3 +1,17 @@
+$('.owl-carousel').owlCarousel({ 
+    autoplay:true,
+    responsive:{
+                0:{
+                    items:1
+                },
+                1100:{
+                    items:5
+                }
+            }
+});
+
+
+
 console.clear();
 
 const nav = document.querySelector("nav");

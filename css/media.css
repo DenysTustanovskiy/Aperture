@@ -7,6 +7,24 @@
     
 }
 
+
+@media screen and (max-width:508px){
+    header nav li:first-of-type a{
+        margin-left: 0%;
+       
+    }
+    
+}
+
+@media screen and (max-width:508px){
+    header nav li:last-of-type a{
+        margin-left: 0%;
+       
+    }
+    
+}
+
+
 @media screen and (max-width:508px){
     header nav li:last-of-type a{
         background: none;
@@ -38,7 +56,8 @@
 }   
 
 @media screen and (max-width:508px){
-    .business{display:block ;}
+    .business{display:block ;
+    margin-left: 0%;}
 }
 
 @media screen and (max-width:508px){
@@ -57,5 +76,19 @@
     .nav-links li{
      margin-left: 15px;
      padding-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:508px){
+    .grapher h1{
+    padding-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width:508px){
+    .grapher p{
+     margin-top: 80px;
     }
 }
