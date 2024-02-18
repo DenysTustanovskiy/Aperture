@@ -165,8 +165,8 @@ nav {
 		@include flex-center();
 		--icon-width: 25px;
 		position: absolute;
-		top: 10%;
-		right: -30%;
+		top: 3%;
+		right: -10%;
 		width: calc(var(--icon-width) + 25px);
 		height: calc(var(--icon-width) + 25px);
 		flex-direction: column;
